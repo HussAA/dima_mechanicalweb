@@ -1,13 +1,17 @@
 import Footer from "@/components/footer";
-import Header from "@/components/header.js";
+import Header from "@/components/header";
+import Contact  from "@/components/contact";
 
 export default function Home() {
   return (
     <>
-      <section className="mb-[50vh]">
+      <section>
         <Header/>
       </section>
-      <section>
+      <section className="mb-[57px]">
+        <Contact />
+      </section>
+      <section >
         <Footer />
       </section>
     </>

@@ -13,13 +13,13 @@ export default function Header() {
   return (
     <header className="bg-white shadow font-customFont font-bold">
       <div className="container mx-auto px-8 py-4 flex justify-between items-center">
-        <div className="text-xl font-bold text-[#2B1B12]">DIMA AL UROUBA TURNERY</div>
+        <div className="text-base lg:text-xl font-bold text-[#2B1B12]">DIMA AL UROUBA TURNERY</div>
             <nav className="hidden md:flex space-x-4 lg:space-x-12 items-center">
                 <a href="#" className="text-[#2B1B12] hover:text-[#9c6240] duration-150">Home</a>
                 <a href="#" className="text-[#2B1B12] hover:text-[#9c6240] duration-150">Departments</a>
                 <a href="#" className="text-[#2B1B12] hover:text-[#9c6240] duration-150">About</a>
                 <a href="#" className="text-[#2B1B12] hover:text-[#9c6240] duration-150">Terms</a>
-                <Button className="bg-[#2B1B12] px-5 text-[16px] hover:bg-[#9c6240] duration-150">Contact</Button>
+                <Button className="bg-[#2B1B12] px-5 text-[16px] hover:bg-[#5a3b2a] duration-150">Contact</Button>
             </nav>
         <div className="md:hidden">
           <Sheet isOpen={isOpen}>
