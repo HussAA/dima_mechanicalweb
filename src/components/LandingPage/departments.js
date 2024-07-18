@@ -8,7 +8,7 @@ const Description = {
 
 const DepartmentsLanding = () => {
   return (
-    <div className="font-customFont mx-auto w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12">
+    <div className="font-customFont mx-auto md:w-11/12 w-full">
       {/* Title */}
       <div className="text-[40px] font-semibold text-center text-[#4F3527]">
         Departments
@@ -18,21 +18,34 @@ const DepartmentsLanding = () => {
         {Description.item1}
       </div>
       {/* Cards */}
-      <Marquee speed={60} loop={0} gradient gradientColor="white" gradientWidth={35}>
-        <div className="flex gap-16 ml-16">
+      <Marquee
+        // play={false}
+        speed={70}
+        loop={0}
+        gradient
+        gradientColor="white"
+        gradientWidth={35}
+      >
+        <div className="flex gap-16 ml-16 py-20">
           {Departments.concat(Departments).map((item, index) => (
             <div
               key={index}
-              className="font-customFont h-[250px] w-[260px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 p-4 flex flex-col justify-center"
+              className="font-customFont min-h-[310px] w-[260px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 px-4 flex flex-col justify-center"
             >
-              <div className="h-20 w-20 bg-[#FBF5F1] rounded-lg flex items-center justify-center">
-                <img src={item.icon} alt={`${item.name} icon`} className="" />
+              <div className="h-2/6 pt-3">
+                <div className="min-w-20 min-h-20 w-1/3 h-1/3 bg-[#FBF5F1] rounded-lg flex items-center justify-center">
+                  <img src={item.icon} alt={`${item.name} icon`} className="" />
+                </div>
               </div>
-              <div className="text-lg font-bold py-3 text-[#2B1B12]">
-                {item.name}
+              <div className="h-1/6 pt-3">
+                <div className="text-lg font-bold text-[#2B1B12]">
+                  {item.name}
+                </div>
               </div>
-              <div className="text-base font-medium text-[#4F3527]">
-                {item.description}
+              <div className="h-2/6 pt-3">
+                <div className="text-base font-medium text-[#4F3527]">
+                  {item.description}
+                </div>
               </div>
             </div>
           ))}

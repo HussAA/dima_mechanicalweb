@@ -9,7 +9,7 @@ const Description = {
 
 const Objectives = () => {
   return (
-    <div className="font-customFont mx-auto w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12">
+    <div className="font-customFont mx-auto lg:w-11/12 w-full">
       {/* Title */}
       <div className="text-[40px] font-semibold text-center text-[#4F3527]">
         Objectives
@@ -20,7 +20,7 @@ const Objectives = () => {
       </div>
       {/* Cards */}
       <Marquee direction="right" speed={60} loop={0} gradient gradientColor="white" gradientWidth={35}>
-        <div className="flex gap-16 ml-16">
+        <div className="flex gap-16 ml-16 py-20">
           {objectives.concat(objectives).map((item, index) => (
             <div
               key={index}

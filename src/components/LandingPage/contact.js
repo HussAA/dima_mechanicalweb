@@ -3,6 +3,7 @@ import {
   IconMailFilled,
   IconUserCircle,
 } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function contact() {
   return (
@@ -12,18 +13,18 @@ export default function contact() {
           Do You Have Any Questions? Get Help From Us
         </h1>
         <div className="flex justify-center mb-4 md:space-x-10">
-          <a
-            href="#"
+          <Link
+            href="/terms"
             className="text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
           >
             Terms of Service
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
           >
             Browse our FAQ
-          </a>
+          </Link>
         </div>
         <form>
           <div className="mb-3 relative">

@@ -20,13 +20,13 @@ export default function Home() {
       <section className="my-[80px]">
         <Stats/>
       </section>
-      <section className="my-[80px]">
+      <section className="my-[40px]">
         <DepartmentsLanding/>
       </section>
-      <section className="my-[80px]">
+      <section className="my-[40px]">
         <Objectives/>
       </section>
-      <section className="my-[80px]">
+      <section className="my-[40px]">
         <ToolsForSale/>
       </section>
       <section className="my-[30px]" id="contact">
