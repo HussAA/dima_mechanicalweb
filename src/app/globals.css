@@ -87,13 +87,3 @@ html {
   border-radius: 0px;
 }
 
-/* styles/globals.css */
-
-/* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-/* Apply the font globally */
-body,
-html {
-  font-family: "Montserrat";
-}

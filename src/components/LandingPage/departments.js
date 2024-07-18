@@ -1,6 +1,8 @@
 "use client";
+
 import Marquee from "react-fast-marquee";
 import { Departments } from "@/data/departmentCards";
+import Image from "next/image";
 const Description = {
   item1:
     "Precision-engineered components crafted with expertise and efficiency in our advanced Departments",
@@ -33,8 +35,15 @@ const DepartmentsLanding = () => {
               className="font-customFont min-h-[310px] w-[260px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 px-4 flex flex-col justify-center"
             >
               <div className="h-2/6 pt-3">
-                <div className="min-w-20 min-h-20 w-1/3 h-1/3 bg-[#FBF5F1] rounded-lg flex items-center justify-center">
-                  <img src={item.icon} alt={`${item.name} icon`} className="" />
+                <div className="relative min-w-20 min-h-20 w-1/3 h-1/3 bg-[#FBF5F1] rounded-lg flex items-center justify-center">
+                  <Image
+                    src={item.icon}
+                    alt={`${item.name} icon`}
+                    layout="fill"
+                    objectFit="none"
+                    blurDataURL="data:..." automatically provided
+                    placeholder="blur" 
+                  />
                 </div>
               </div>
               <div className="h-1/6 pt-3">

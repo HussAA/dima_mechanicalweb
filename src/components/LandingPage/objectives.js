@@ -1,5 +1,6 @@
 "use client";
 import { objectives } from "@/data/objectivesCards";
+import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 const Description = {
@@ -19,7 +20,14 @@ const Objectives = () => {
         {Description.item1}
       </div>
       {/* Cards */}
-      <Marquee direction="right" speed={60} loop={0} gradient gradientColor="white" gradientWidth={35}>
+      <Marquee
+        direction="right"
+        speed={60}
+        loop={0}
+        gradient
+        gradientColor="white"
+        gradientWidth={35}
+      >
         <div className="flex gap-16 ml-16 py-20">
           {objectives.concat(objectives).map((item, index) => (
             <div
@@ -27,11 +35,17 @@ const Objectives = () => {
               className="relative font-customFont h-[400px] w-[260px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 p-4 flex flex-col justify-center text-center"
             >
               <div className="absolute top-5 right-5">
-                <img src='/quotation.svg' alt='quotes icon' className="" />
+                <Image
+                  src="/quotation.svg"
+                  alt="quotes icon"
+                  width={30}
+                  height={30}
+                  blurDataURL="data:..." automatically provided
+                  placeholder="blur" 
+                  
+                />
               </div>
-              <div className="font-semibold text-[#4F3527]">
-                {item}
-              </div>
+              <div className="font-semibold text-[#4F3527]">{item}</div>
             </div>
           ))}
         </div>

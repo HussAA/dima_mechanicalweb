@@ -17,10 +17,10 @@ module.exports = {
       },
     },
     extend: {
-      fontFamily: {
-        customFont: ['Montserrat'],
+      // fontFamily: {
+      //   customFont: ['Montserrat'],
         
-      },
+      // },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

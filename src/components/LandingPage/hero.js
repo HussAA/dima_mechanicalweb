@@ -32,6 +32,8 @@ const Hero = () => {
           alt="Hero Image"
           width={450}
           height={450}
+          blurDataURL="data:..." automatically provided
+          placeholder="blur" 
         />
       </div>
     </div>

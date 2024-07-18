@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const items = {
   text: "Reaching the world in the field of industry, turning, and maintenance is not easy, but with patience and diligence, we have reached what we aspire to. For this reason, we are trying to preserve the place we have reached, to always maintain our first ranking in our field, and thus we gain the trust of our customers.",
 };
@@ -8,12 +10,16 @@ const Stats = () => {
   return (
     <div className="font-customFont w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 flex flex-col md:flex-row items-center gap-10 mx-auto">
       {/* Left Side */}
-      <div className="w-full md:w-1/2">
+      <div className="relative w-full md:w-1/2">
         {/* Image */}
-        <img
+        <Image
+          width={999}
+          height={999}
           src="/AboutUs4.jpg"
           alt="stat Image"
           className="rounded-lg md:w-full sm:w-8/12 w-10/12 mx-auto xl:max-h-[350px] md:max-h-[300px] md:h-auto h-[240px] object-cover"
+          blurDataURL="data:..." automatically provided
+          placeholder="blur" 
         />
       </div>
       {/* Right Side */}

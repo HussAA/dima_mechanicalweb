@@ -29,7 +29,7 @@ const ToolsForSale = () => {
   return (
     <section className="py-12 bg-[#FEF7F2]">
       <div className="font-customFont mx-auto w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 ">
-        <h2 className="text-[40px] font-extrabold text-center mb-12 text-[#2B1B12]">
+        <h2 className="text-[40px] mb-12 font-semibold text-center text-[#4F3527]">
           Machine Tools <br/>For Sales
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-9 md:gap-4 lg:gap-8 xl:gap-10 mx-auto ">
@@ -44,6 +44,8 @@ const ToolsForSale = () => {
                   alt={card.title}
                   layout="fill"
                   objectFit="cover"
+                  blurDataURL="data:..." automatically provided
+                  placeholder="blur" 
                 />
               </div>
               <div className="p-4 pb-10">
