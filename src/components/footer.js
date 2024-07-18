@@ -33,21 +33,21 @@ export default function Footer() {
           <ul>
             <li className='mb-2 flex items-center'>
               <IconBrandInstagram className="mr-2" />
-              <Link href="#" className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150">Instagram</Link>
+              <Link href="/departments" className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150">Instagram</Link>
             </li>
             <li className='mb-2 flex items-center'>
               <IconBrandFacebook className="mr-2" />
-              <Link href="#" className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150">Facebook</Link>
+              <Link href="/about" className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150">Facebook</Link>
             </li>
             <li className='mb-2 flex items-center'>
               <IconBrandX className="mr-2" />
-              <Link href="#" className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150">Twitter</Link>
+              <Link href="/terms" className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150">Twitter</Link>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div className='text-center bg-[#2B1B12] text-[#b37f61] p-2'>
+    <div className='text-center bg-[#493b34] text-[#ccb4a6] p-2'>
     Copyright © {new Date().getFullYear()}; Built by <Link href="https://hussainalnakhli.com/" rel='noreferrer' target="_blank" className='underline'>Hussain Alnakhli</Link> 
     </div>
     </footer>
