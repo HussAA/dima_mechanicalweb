@@ -23,7 +23,7 @@ const Stats = () => {
         />
       </div>
       {/* Right Side */}
-      <div className="w-full md:w-1/2 md:text-left">
+      <div className="sm:w-10/12 w-11/12 md:w-1/2 md:text-left">
         {/* Title */}
         <div className="text-4xl font-medium mb-4 text-center md:text-left">
           Something Else
@@ -35,16 +35,16 @@ const Stats = () => {
         {/* Stats */}
         <div className="flex justify-between">
           <div className="text-[#4F3527]">
-            <div className="text-[44px] leading-[50px] font-semibold">+8K</div>
-            <div className="font-semibold">Products Shipped</div>
+            <div className="md:text-[44px] text-[30px] leading-[50px] font-semibold">+8K</div>
+            <div className="text-sm sm:text-base font-semibold">Products Shipped</div>
           </div>
           <div className="text-[#4F3527]">
-            <div className="text-[44px] leading-[50px] font-semibold">+4K</div>
-            <div className="font-semibold">Happy Customers</div>
+            <div className="md:text-[44px] text-[30px] leading-[50px] font-semibold">+4K</div>
+            <div className="text-sm sm:text-base font-semibold">Happy Customers</div>
           </div>
           <div className="text-[#4F3527]">
-            <div className="text-[44px] leading-[50px] font-semibold">680</div>
-            <div className="font-semibold">Staff Support</div>
+            <div className="md:text-[44px] text-[30px] leading-[50px] font-semibold">680</div>
+            <div className="text-sm sm:text-base font-semibold">Staff Support</div>
           </div>
         </div>
       </div>
