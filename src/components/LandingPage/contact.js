@@ -11,7 +11,7 @@ export default function contact() {
         <h1 className="text-[23px] md:text-[30px]  font-bold mb-6 text-center text-[#2B1B12]">
           Do You Have Any Questions? Get Help From Us
         </h1>
-        <div className="flex justify-center mb-4 space-x-10">
+        <div className="flex justify-center mb-4 md:space-x-10">
           <a
             href="#"
             className="text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
@@ -63,7 +63,7 @@ export default function contact() {
 
             <button
               type="submit"
-              className="w-[23%] p-[10px] bg-[#2B1B12] text-white rounded-md hover:bg-[#5a3b2a] duration-150"
+              className="w-[23%] p-[10px] bg-[#2B1B12] text-white rounded-md hover:bg-[#5a3b2a] duration-150 md:text-base text-sm"
             >
               Submit
             </button>

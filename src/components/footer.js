@@ -47,8 +47,8 @@ export default function Footer() {
         </div>
       </div>
     </div>
-    <div className='text-center bg-[#2B1B12] text-[#df8d5e] p-2'>
-    Copyright © {new Date().getFullYear()}; Built by <span className='underline'>Majlis Dev </span> 
+    <div className='text-center bg-[#2B1B12] text-[#b37f61] p-2'>
+    Copyright © {new Date().getFullYear()}; Built by <Link href="https://hussainalnakhli.com/" rel='noreferrer' target="_blank" className='underline'>Hussain Alnakhli</Link> 
     </div>
     </footer>
       
