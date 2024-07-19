@@ -7,7 +7,7 @@ import {
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="bg-[#DDC7BB]">
+    <footer className="bg-[#f5dfd4]">
       <div className="container flex flex-wrap  text-[#2B1B12] pt-10 pb-20 px-4">
         <div className="w-full md:w-[30%] p-4">
           <h2 className="text-[20px] md:text-[20px] mb-2 font-bold">
@@ -18,7 +18,7 @@ export default function Footer() {
             أكثر إشراقًا
           </div>
         </div>
-        <span className="md:w-0 w-full border border-[#2B1B12]" />
+        <span className="md:w-0 w-full border border-[#38302b]" />
         <div className="w-full md:ml-auto md:w-[60%] flex flex-wrap">
           <div className="sm:w-1/3 p-4 w-7/12">
             <h2 className="text-base md:text-lg font-semibold mb-4">Support</h2>
@@ -122,7 +122,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-center bg-[#493b34] text-[#ccb4a6] p-2">
+      <div className="text-center bg-[#38302b] text-[#ccb4a6] p-2">
         Copyright © {new Date().getFullYear()}; Built by{" "}
         <Link
           href="mailto:hussain.alnakhli@majlisdev.com"
