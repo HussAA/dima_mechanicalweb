@@ -21,9 +21,9 @@ const AllDepartments = () => {
         <Image
           width={999}
           height={999}
-          src="/AboutUs4.jpg"
+          src="/worker.jpg"
           alt="stat Image"
-          className="rounded-lg md:w-full sm:w-8/12 w-11/12 mx-auto xl:max-h-[400px] md:max-h-[350px] md:h-auto h-[280px] object-cover"
+          className="rounded-xl md:w-full sm:w-8/12 w-11/12 mx-auto xl:max-h-[400px] md:max-h-[350px] md:h-auto h-[280px] object-cover"
           blurDataURL="data:..."
           automatically
           provided
@@ -36,7 +36,7 @@ const AllDepartments = () => {
               support, please contact us.
             </div>
             <Link
-              className="sm:p-4 p-3 sm:px-8 px-5 text-gray-100 bg-[#835b47] rounded-md hover:bg-[#2e2019] duration-150"
+              className="p-3 px-4 text-gray-900 font-semibold bg-[#d6d1cb] hover:shadow-md shadow-md rounded-md hover:bg-[#ebe2d7] duration-150"
               href="/#contact"
             >
               Contact Us
