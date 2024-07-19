@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="#"
+                  href="/#contact"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >
                   Contact Us
@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="#"
+                  href="/#contact"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >
                   Help Center
@@ -49,10 +49,10 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="#"
+                  href="/terms"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >
-                  Terms of Service
+                  Terms & Conditions
                 </Link>
               </li>
             </ul>
@@ -62,7 +62,7 @@ export default function Footer() {
             <ul className="font-medium">
               <li className="mb-2">
                 <Link
-                  href="#"
+                  href="/departments"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >
                   Departments
@@ -70,7 +70,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="#"
+                  href="/about"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >
                   About
@@ -78,7 +78,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  href="#"
+                  href="/terms"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >
                   Terms

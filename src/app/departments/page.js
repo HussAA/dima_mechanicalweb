@@ -9,6 +9,7 @@ import Conventionaldepartment from "@/components/Departments/conventionalMachine
 import Electricaldepartment from "@/components/Departments/electrical";
 import WeldingDepartment from "@/components/Departments/welding";
 import MoldDepartment from "@/components/Departments/moldAndDie";
+import ScrollArrow from "@/components/scrollButton";
 
 const Page = () => {
   return (
@@ -36,6 +37,7 @@ const Page = () => {
      </section>
       <footer>
         <Footer/>
+        <ScrollArrow/>
       </footer>
     </>
   );

@@ -6,7 +6,7 @@ import Stats from '@/components/LandingPage/statSection'
 import DepartmentsLanding from '@/components/LandingPage/departments'
 import Objectives from "@/components/LandingPage/objectives";
 import ToolsForSale from "@/components/LandingPage/toolsForSale";
-
+import ScrollArrow from "@/components/scrollButton";
 
 
 
@@ -34,6 +34,7 @@ export default function Home() {
       </section>
       <section >
         <Footer />
+        <ScrollArrow/>
       </section>
     </>
   );

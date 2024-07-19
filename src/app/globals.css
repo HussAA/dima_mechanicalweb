@@ -87,3 +87,18 @@ html {
   border-radius: 0px;
 }
 
+.scrollTop {
+  position: fixed; 
+  width: auto;
+  left: 93%;
+  bottom: 30px;
+  align-items: right;
+  height: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}

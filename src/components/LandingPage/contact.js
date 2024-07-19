@@ -18,7 +18,7 @@ export default function contact() {
             href="/terms"
             className="text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
           >
-            Terms of Service
+            Terms and Conditions
           </Link>
           <Link
             href="https://wa.me/"
