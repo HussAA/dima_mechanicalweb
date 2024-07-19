@@ -1,7 +1,7 @@
 const Page = () => {
     return (
         <div>
-            Coming Soon
+            Still in development
         </div>
     );
 }
