@@ -23,11 +23,11 @@ export default function Header() {
         <div className="md:hidden">
           <Sheet isOpen={isOpen}>
             <SheetTrigger asChild>
-            <button onClick={toggle} class="block lg:hidden p-2 text-black rounded">
+            <div onClick={toggle} class="block lg:hidden p-2 text-black rounded cursor-pointer">
                 <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
-            </button>
+            </div>
             </SheetTrigger>
             <SheetContent>
               <nav className="space-y-8 p-4 pt-8 font-medium">
