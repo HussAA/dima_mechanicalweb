@@ -17,10 +17,11 @@ module.exports = {
       },
     },
     extend: {
-      // fontFamily: {
-      //   customFont: ['Montserrat'],
+      screens:{
+        'xs': '568px', //min-width
+      },
         
-      // },
+     
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

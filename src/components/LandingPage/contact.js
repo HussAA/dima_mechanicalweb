@@ -3,6 +3,7 @@ import {
   IconMailFilled,
   IconUserCircle,
 } from "@tabler/icons-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function contact() {
@@ -20,10 +21,10 @@ export default function contact() {
             Terms of Service
           </Link>
           <Link
-            href="#"
-            className="text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
-          >
-            Browse our FAQ
+            href="https://wa.me/"
+            className="order-1 flex text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
+          ><Image src="/brand-whatsapp.svg" width={20} height={20} className="order-2 ml-1"/>
+            WhatsApp
           </Link>
         </div>
         <form>
@@ -45,7 +46,7 @@ export default function contact() {
               size={20}
             />
             <textarea
-              rows={1}
+              rows={3}
               placeholder="How can we help?"
               className="w-full pl-10 p-[10px] bg-[#DDC7BB] rounded-md focus:outline-none focus:bg-[#d6b4a2] placeholder-[#543E32] placeholder:text-[14px] font-[600] focus:placeholder-opacity-30"
             ></textarea>
@@ -64,7 +65,7 @@ export default function contact() {
 
             <button
               type="submit"
-              className="w-[23%] p-[10px] bg-[#2B1B12] text-white rounded-md hover:bg-[#5a3b2a] duration-150 md:text-base text-sm"
+              className="w-[23%] p-[10px] bg-[#493b34] text-white rounded-md hover:bg-[#5a3b2a] duration-150 md:text-base text-sm"
             >
               Submit
             </button>

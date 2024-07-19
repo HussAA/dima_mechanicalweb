@@ -8,7 +8,7 @@ const items = {
 
 const Stats = () => {
   return (
-    <div className="font-customFont w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 flex flex-col md:flex-row items-center gap-10 mx-auto">
+    <div className="w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 flex flex-col md:flex-row items-center gap-10 mx-auto">
       {/* Left Side */}
       <div className="relative w-full md:w-1/2">
         {/* Image */}
@@ -25,26 +25,26 @@ const Stats = () => {
       {/* Right Side */}
       <div className="sm:w-10/12 w-11/12 md:w-1/2 md:text-left">
         {/* Title */}
-        <div className="text-4xl font-medium mb-4 text-center md:text-left">
+        <div className="text-3xl md:text-4xl font-medium mb-5 text-center md:text-left">
           Something Else
         </div>
         {/* Description */}
-        <div className="font-medium text-[16px] mb-6 text-balance text-center md:text-left">
+        <div className="font-medium text-[14px] md:text-[16px] mb-6 text-balance text-center md:text-left">
           {items.text}
         </div>
         {/* Stats */}
-        <div className="flex justify-between">
+        <div className="flex gap-4 justify-center">
           <div className="text-[#4F3527]">
-            <div className="md:text-[44px] text-[30px] leading-[50px] font-semibold">+8K</div>
-            <div className="text-sm sm:text-base font-semibold">Products Shipped</div>
+            <div className="lg:text-[35px] text-[30px] leading-[50px] font-semibold">+8K</div>
+            <div className="text-sm lg:text-base font-semibold">Products Shipped</div>
           </div>
           <div className="text-[#4F3527]">
-            <div className="md:text-[44px] text-[30px] leading-[50px] font-semibold">+4K</div>
-            <div className="text-sm sm:text-base font-semibold">Happy Customers</div>
+            <div className="lg:text-[35px] text-[30px] leading-[50px] font-semibold">+4K</div>
+            <div className="text-sm lg:text-base font-semibold">Happy Customers</div>
           </div>
           <div className="text-[#4F3527]">
-            <div className="md:text-[44px] text-[30px] leading-[50px] font-semibold">680</div>
-            <div className="text-sm sm:text-base font-semibold">Staff Support</div>
+            <div className="lg:text-[35px] text-[30px] leading-[50px] font-semibold">680</div>
+            <div className="text-sm lg:text-base font-semibold">Staff Support</div>
           </div>
         </div>
       </div>

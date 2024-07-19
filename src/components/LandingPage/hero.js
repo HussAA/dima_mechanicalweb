@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { IconBrandWhatsapp } from '@tabler/icons-react';
 const Hero = () => {
   return (
     <div className="md:mx-auto w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 flex flex-col md:flex-row md:items-center py-10">
@@ -16,12 +17,18 @@ const Hero = () => {
           إشراقًا
         </div>
         {/* Button and Link */}
-        <div className="my-10">
+        <div className="my-10 flex">
           <Link
-            href="#contact"
-            className="bg-[#2B1B12] px-7 text-[16px] hover:bg-[#5a3b2a] duration-150 text-[#F0F0F0] py-2 rounded-md"
+            href="https://wa.me/"
+            className=" flex items-center bg-[#2B1B12] px-7 text-[16px] hover:bg-[#5a3b2a] duration-150 text-[#F0F0F0] py-2 rounded-md"
+          ><IconBrandWhatsapp width={20} height={20} className="ml-1 order-2"/>
+            WhatsApp
+          </Link>
+          <Link
+            href="/about"
+            className="px-7 text-[16px] font-medium hover:text-[#5a3b2a] duration-150 text-black py-2 rounded-md"
           >
-            Contact
+            Learn More
           </Link>
         </div>
       </div>
