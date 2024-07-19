@@ -32,7 +32,7 @@ const AllDepartments = () => {
         <div className="absolute top-1/2 xs:right-[30%] sm:right-[27%] md:right-[17%] 2xl:right-[37%] right-[21%] m-5 flex items-center 2xl:w-8/12 md:w-10/12 sm:w-7/12 xs:w-8/12 w-9/12 h-[230px] rounded-xl text-gray-800 bg-[#f5f5f5] bg-opacity-80 backdrop-blur-md shadow-md shadow-gray-400 text-lg">
           <div className="p-5">
             <div className="sm:pb-10 pb-6 text-base sm:text-lg font-medium">
-              We're here to assist you. If you have any questions or need
+              We&apos;re here to assist you. If you have any questions or need
               support, please contact us.
             </div>
             <Link

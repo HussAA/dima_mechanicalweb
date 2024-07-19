@@ -23,7 +23,7 @@ export default function contact() {
           <Link
             href="https://wa.me/"
             className="order-1 flex text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
-          ><Image src="/brand-whatsapp.svg" width={20} height={20} className="order-2 ml-1"/>
+          ><Image src="/brand-whatsapp.svg" alt="whatsapp icon" width={20} height={20} className="order-2 ml-1"/>
             WhatsApp
           </Link>
         </div>
