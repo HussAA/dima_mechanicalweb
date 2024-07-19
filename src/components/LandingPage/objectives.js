@@ -1,4 +1,4 @@
-"use client";
+
 import { objectives } from "@/data/objectivesCards";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";

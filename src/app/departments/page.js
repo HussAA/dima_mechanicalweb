@@ -1,7 +1,7 @@
 "use client";
 
 import Header from "@/components/header";
-import ExtraHero from "@/components/Departments/hero";
+import DepartmentHero from "@/components/Departments/hero";
 import AllDepartments from "@/components/Departments/allDepartments";
 import Footer from "@/components/footer";
 import CNCdepartment from "@/components/Departments/cnc";
@@ -15,7 +15,7 @@ const Page = () => {
     <>
       <header className="bg-[#FEF7F2] pb-20 pt-3">
         <Header />
-        <ExtraHero />
+        <DepartmentHero />
       </header>
       <section>
         <section className="py-36">
