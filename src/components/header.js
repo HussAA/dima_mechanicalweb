@@ -10,9 +10,13 @@ export default function Header() {
     const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <header className="font-customFont font-bold">
+    <header className="font-bold">
       <div className="w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 mx-auto py-4 flex justify-between items-center">
-        <div className="text-base lg:text-xl font-bold text-[#2B1B12]">DIMA AL UROUBA</div>
+        <div className="relative text-base lg:text-xl font-extrabold text-[#2B1B12]">DIMA AL UROUBA
+        <div className="absolute top-[-2px] -left-[3px] w-[8%] border-b-2 border-[#2B1B12]" />
+        <div className="absolute top-[1px] left-0 w-[9%] border-b-[3px] border-[#2B1B12]" />
+        <div className="absolute top-[1px] -left-[3px] h-[70%] border-l-[3px] border-[#2B1B12]" />
+        </div>
             <nav className="hidden md:flex space-x-4 lg:space-x-10 items-center">
                 <Link href="/" className="text-[#2B1B12] hover:text-[#9c6240] duration-150">Home</Link>
                 <Link href="/departments" className="text-[#2B1B12] hover:text-[#9c6240] duration-150">Departments</Link>

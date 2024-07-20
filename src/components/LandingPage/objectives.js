@@ -10,7 +10,7 @@ const Description = {
 
 const Objectives = () => {
   return (
-    <div className="font-customFont mx-auto lg:w-11/12 w-full">
+    <div className="mx-auto lg:w-11/12 w-full">
       {/* Title */}
       <div className="text-[30px] md:text-[40px] font-semibold text-center text-[#4F3527]">
         Objectives
@@ -28,11 +28,11 @@ const Objectives = () => {
         gradientColor="white"
         gradientWidth={35}
       >
-        <div className="flex gap-16 ml-16 py-20">
+        <div className="flex md:gap-10 md:ml-10 gap-5 ml-5 py-20">
           {objectives.concat(objectives).map((item, index) => (
             <div
               key={index}
-              className="relative font-customFont h-[400px] w-[260px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 p-4 flex flex-col justify-center text-center"
+              className="relative md:h-[400px] md:w-[260px] h-[320px] w-[220px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 p-4 flex flex-col justify-center text-center"
             >
               <div className="absolute top-5 right-5">
                 <Image
@@ -45,7 +45,7 @@ const Objectives = () => {
                   
                 />
               </div>
-              <div className="font-semibold text-[#4F3527]">{item}</div>
+              <div className="font-semibold text-[#4F3527] md:text-base text-sm">{item}</div>
             </div>
           ))}
         </div>

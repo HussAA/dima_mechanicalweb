@@ -28,14 +28,14 @@ const DepartmentsLanding = () => {
         gradientColor="white"
         gradientWidth={35}
       >
-        <div className="flex gap-16 ml-16 py-20">
+        <div className="flex md:gap-10 md:ml-10 gap-5 ml-5 py-20">
           {Departments.concat(Departments).map((item, index) => (
             <div
               key={index}
-              className="font-customFont min-h-[310px] w-[260px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 px-4 flex flex-col justify-center"
+              className="md:min-h-[310px] md:w-[260px] min-h-[240px] w-[220px] bg-[#DDC7BB] rounded-lg shadow-lg shadow-gray-400 px-4 flex flex-col justify-center"
             >
-              <div className="h-2/6 pt-3">
-                <div className="relative min-w-20 min-h-20 w-1/3 h-1/3 bg-[#FBF5F1] rounded-lg flex items-center justify-center">
+              <div className="h-2/6 md:pt-3">
+                <div className="relative md:min-w-20 md:min-h-20 min-w-16 min-h-16 md:w-1/3 w-1/4 md:h-1/3 bg-[#FBF5F1] rounded-lg flex items-center justify-center">
                   <Image
                     src={item.icon}
                     alt={`${item.name} icon`}
@@ -46,13 +46,13 @@ const DepartmentsLanding = () => {
                   />
                 </div>
               </div>
-              <div className="h-1/6 pt-3">
-                <div className="text-lg font-bold text-[#2B1B12]">
+              <div className="md:h-1/6 h-[10%] md:pt-3">
+                <div className="md:text-lg font-bold text-[#2B1B12]">
                   {item.name}
                 </div>
               </div>
               <div className="h-2/6 pt-3">
-                <div className="text-base font-medium text-[#4F3527]">
+                <div className="md:text-base text-sm font-medium text-[#4F3527]">
                   {item.description}
                 </div>
               </div>
