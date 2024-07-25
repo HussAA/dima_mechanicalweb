@@ -28,7 +28,7 @@ const cards = [
 const ToolsForSale = () => {
   return (
     <section className="py-12 bg-[#FEF7F2]">
-      <div className="font-customFont mx-auto w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 ">
+      <div className="mx-auto w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 ">
         <h2 className="text-[30px] md:text-[40px] mb-12 font-semibold text-center text-[#4F3527]">
           Machine Tools <br/>For Sales
         </h2>
