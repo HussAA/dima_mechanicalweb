@@ -18,7 +18,7 @@ const Electricaldepartment = () => {
           width={999}
           height={999}
           src="/electric.jpg"
-          alt="stat Image"
+          alt="electrical Image"
           className="rounded-xl md:w-full sm:w-8/12 w-11/12 mx-auto xl:max-h-[400px] md:max-h-[350px] md:h-auto h-[300px] object-cover shadow-md shadow-gray-400"
           blurDataURL="data:..."
           automatically

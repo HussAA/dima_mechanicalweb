@@ -10,7 +10,9 @@ import Electricaldepartment from "@/components/Departments/electrical";
 import WeldingDepartment from "@/components/Departments/welding";
 import MoldDepartment from "@/components/Departments/moldAndDie";
 import ScrollArrow from "@/components/scrollButton";
-
+import SheetMetalDepartment from "@/components/Departments/sheetMetal";
+import GearsDepartment from "@/components/Departments/gearBox";
+import Contact from "@/components/LandingPage/contact";
 const Page = () => {
   return (
     <>
@@ -19,20 +21,32 @@ const Page = () => {
         <DepartmentHero />
       </header>
       <section>
-        <section className="py-36">
+        <section className="pb-24 pt-32">
           <AllDepartments />
         </section>
-        <section className="py-36">
+        <section id="cnc" className="py-24">
           <CNCdepartment />
         </section>
-        <section className="py-36">
+        <section id="conventional" className="py-24">
           <Conventionaldepartment />
         </section>
-        <section className="py-24 bg-[#d6cfc6]">
+        <section id="electrical" className="py-24 bg-[#d6cfc6]">
           <Electricaldepartment />
         </section>
-        <section className="py-36">
+        <section id="mold" className="py-24">
           <MoldDepartment />
+        </section>
+        <section id="sheet" className="py-24">
+          <SheetMetalDepartment />
+        </section>
+        <section id="welding" className="py-24 bg-gradient-to-l from-[#f7ddb6] to-[#e9e3de]">
+          <WeldingDepartment />
+        </section>
+        <section id="gears" className="py-24">
+          <GearsDepartment />
+        </section>
+        <section id="contact" className="my-[30px]">
+          <Contact />
         </section>
      </section>
       <footer>

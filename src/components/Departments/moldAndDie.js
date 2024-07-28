@@ -19,7 +19,7 @@ const MoldDepartment = () => {
           width={400}
           height={200}
           src="/cnc-milling.jpg"
-          alt="stat Image"
+          alt="mold Image"
           className="object-cover h-[400px] min-w-[400px] rounded-full shadow-lg shadow-gray-400"
           blurDataURL="data:..."
           automatically

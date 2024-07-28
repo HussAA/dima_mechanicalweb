@@ -18,7 +18,7 @@ const Conventionaldepartment = () => {
           width={400}
           height={200}
           src="/laser-cutting.webp"
-          alt="stat Image"
+          alt="machinery Image"
           className="rounded-xl md:w-full sm:w-8/12 w-11/12 mx-auto xl:max-h-[400px] md:max-h-[350px] md:h-auto h-[280px] object-cover shadow-lg shadow-gray-400"
           blurDataURL="data:..."
           automatically
