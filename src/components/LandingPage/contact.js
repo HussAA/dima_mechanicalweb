@@ -21,10 +21,10 @@ export default function contact() {
             Terms and Conditions
           </Link>
           <Link
-            href="https://wa.me/"
-            className="order-1 flex text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
-          ><Image src="/brand-whatsapp.svg" alt="whatsapp icon" width={20} height={20} className="order-2 ml-1"/>
-            WhatsApp
+            href="https://maps.app.goo.gl/Qqr7gNYDMzKuTZMp8"
+            className="text-[#2B1B12] hover:text-[#c4815b] mx-2 duration-150 font-[600]"
+          >
+            Our Address
           </Link>
         </div>
         <form>
