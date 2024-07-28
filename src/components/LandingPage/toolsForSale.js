@@ -5,22 +5,22 @@ const cards = [
   {
     id: 1,
     title: "Dial Indicator",
-    label: "Label 1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    label: "100 Riyal",
+    description: "يمكن تحقيق قياسات دقيقة باستخدام هذه الأداة، التي تضمن محاذاة دقيقة ومعايرة في مهام التصنيع والميكانيكا.",
     imageSrc: "/dial.jpg",
   },
   {
     id: 2,
     title: "Drill Bit",
-    label: "Label 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    label: "30 Riyal",
+    description: "تعتبر هذه الأداة ضرورية لإنشاء ثقوب دقيقة في مواد مختلفة، وتستخدم عادة في عمليات الحفر لتطبيقات مختلفة.",
     imageSrc: "/image1.png",
   },
   {
     id: 3,
-    title: "Cnc Milling",
-    label: "Label 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    title: "Side Milling Cutters",
+    label: "80 Riyal",
+    description: "تُستخدم هذه الأداة في قطع وتشكيل المواد، وهي فعالة في إنشاء فتحات وأخاديد في مجموعة من عمليات التصنيع.",
     imageSrc: "/chainrings.jpg",
   },
 ];
@@ -53,7 +53,7 @@ const ToolsForSale = () => {
                 <span className="text-sm text-[#2B1B12] mb-6 block font-medium">
                   {card.label}
                 </span>
-                <div className="text-[#2B1B12] text-sm font-medium">{card.description}</div>
+                <div dir="rtl" className="text-[#2B1B12] text-sm font-medium">{card.description}</div>
               </div>
             </div>
           ))}

@@ -36,7 +36,7 @@ const Hero = () => {
         {/* Button and Link */}
         <div className="my-10 flex">
           <Link
-            href="https://wa.me/"
+            href="https://wa.me/+9665099096620"
             className="flex items-center bg-[#2B1B12] px-7 text-[16px] hover:bg-[#5a3b2a] duration-150 text-[#F0F0F0] py-2 rounded-md"
           >
             <IconBrandWhatsapp

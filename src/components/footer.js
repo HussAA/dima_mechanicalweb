@@ -106,7 +106,7 @@ export default function Footer() {
               <li className="mb-2 flex items-center">
                 <IconBrandWhatsapp className="mr-2" />
                 <Link
-                  href="https://wa.me/"
+                  href="https://wa.me/+9665099096620"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >
                   WhatsApp
