@@ -63,13 +63,13 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
-            className="absolute w-full h-full"
+            className="absolute"
           >
             <Image
               src={images[currentImageIndex]}
               alt="Hero Image"
-              layout="fill"
-              objectFit="cover"
+              width={450}
+              height={450}
               blurDataURL="data:..."
               placeholder="blur"
             />
