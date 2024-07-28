@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Description = {
   item1:
-    "Crafting precision-engineered components with expertise and efficiency in our advanced department",
+    "تصنيع مكونات مصممة بدقة مع الخبرة والكفاءة في قسمنا المتقدم",
 };
 
 const Objectives = () => {
@@ -16,7 +16,7 @@ const Objectives = () => {
         Objectives
       </div>
       {/* Description */}
-      <div className="w-8/12 md:text-lg py-3 pb-10 mx-auto font-medium text-center text-[#4F3527]">
+      <div dir="rtl" className="w-8/12 md:text-lg py-3 pb-10 mx-auto font-medium text-center text-[#4F3527]">
         {Description.item1}
       </div>
       {/* Cards */}
@@ -45,7 +45,7 @@ const Objectives = () => {
                   
                 />
               </div>
-              <div className="font-semibold text-[#4F3527] md:text-base text-sm">{item}</div>
+              <div dir="rtl" className="font-semibold text-[#4F3527] md:text-base text-sm">{item}</div>
             </div>
           ))}
         </div>

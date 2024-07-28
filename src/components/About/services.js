@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 const list = [
-  "We have succeeded in providing many services since we established the entity Al-Orouba lathe for maintenance and with the passage of days we are developing our services to suit modern technology and the needs of the times and on top of that lathes or what is included under it and a large group of industrial equipment.",
+  "نجحنا في تقديم العديد من الخدمات منذ أن أنشأنا كيان مخرطة العروبة للصيانة ومع مرور الأيام نقوم بتطوير خدماتنا لتتناسب مع التكنولوجيا الحديثة واحتياجات العصر وعلى رأس ذلك المخرطة أو ما يندرج تحتها ومجموعة كبيرة من المعدات الصناعية.",
 ];
 const title =[
     "Services"
@@ -34,7 +34,7 @@ const AboutServices = () => {
         {title}
         <div className="absolute top-[50px] left-0 w-2/12 border-b-4 border-[#c0945b]" />
         </div>
-        <div className="font-medium text-[16px] mb-6 text-left text-[#4F3527]">
+        <div dir="rtl" className="font-medium text-[16px] mb-6 text-left text-[#4F3527]">
           {list}
         </div>
       </div>

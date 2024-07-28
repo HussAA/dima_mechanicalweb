@@ -1,12 +1,13 @@
 import Image from "next/image";
+import { IconCircleFilled } from '@tabler/icons-react';
 
 const list = [
-  "Our prices are competitive and unbeatable.",
-  "More than 10 years experience.",
-  "Updated state-of-the-art CNC lathe, laser machines and best work experience.",
-  "Guarantee on manufacturing quality and speed of implementation.",
-  "We were able to provide many services to the largest number of customers.",
-  "Provide free maintenance service within the warranty period.",
+  "أسعارنا تنافسية ولا تقبل المنافسة.",
+  "أكثر من 10 سنوات من الخبرة.",
+  "تم تحديث أحدث مخرطة CNC وآلات الليزر وأفضل تجربة عمل.",
+  "ضمان جودة التصنيع وسرعة التنفيذ.",
+  "لقد تمكنا من تقديم العديد من الخدمات لأكبر عدد من العملاء.",
+  "توفير خدمة الصيانة المجانية خلال فترة الضمان.",
 ];
 
 const AboutApart = () => {
@@ -39,20 +40,25 @@ const AboutApart = () => {
           <div className="absolute top-[105%] left-0 w-1/4 border-b-4 border-[#fabf51]" />
         </div>
         {/* Description */}
-        <p className="text-[#4F3527] capitalize md:text-lg font-semibold mb-5 pt-10">
-          On the local scale, we were able to have a large customer base, and
-          contributed to collecting that base a set of features that made us a
-          priority in work from others. In Dima Al-Orouba lathe, we were
-          distinguished by:
+        <p
+          dir="rtl"
+          className="text-[#4F3527] capitalize md:text-lg font-semibold mb-5 pt-10"
+        >
+          على المستوى المحلي، تمكنا من الحصول على قاعدة كبيرة من العملاء،
+          وساهمنا في جمع تلك القاعدة مجموعة من المميزات التي جعلتنا نحظى بأولوية
+          في العمل عن غيرنا، وفي مخرطة ديمة العروبة تميزنا بـ:
         </p>
-        <div className="font-medium text-[16px] mb-6 text-left text-[#4F3527]">
+        <div
+          dir="rtl"
+          className="font-medium text-[16px] mb-6 text-right text-[#4F3527]"
+        >
           <ul className="list-disc list-inside">
             {list.length &&
               list.map((item, index) => (
-                <span className="flex" key={index}>
-                  <li></li>
-                  {item}
-                </span>
+                <li key={index} className="flex items-start mb-2">
+                <IconCircleFilled className="ml-2 w-2" />
+                <span>{item}</span>
+              </li>
               ))}
           </ul>
         </div>

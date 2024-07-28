@@ -47,10 +47,11 @@ const Hero = () => {
             WhatsApp
           </Link>
           <Link
+            dir="rtl"
             href="/about"
             className="px-7 text-[16px] font-medium hover:text-[#5a3b2a] duration-150 text-black py-2 rounded-md"
           >
-            Learn More
+            يتعلم أكثر
           </Link>
         </div>
       </div>

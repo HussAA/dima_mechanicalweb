@@ -1,12 +1,12 @@
 import Image from "next/image";
-
+import { IconCircleFilled } from '@tabler/icons-react';
 const list = [
-  "Work to expand the circle of products to meet the needs of the labor market",
-  "Attracting the largest number of trained cadres, especially the maintenance team",
-  "Permanent development of our services and methods of work",
-  "Work on the geographical expansion of our headquarters in all cities of the Kingdom of Saudi Arabia",
-  "Work on me. Our work will be distinct and distinct from others",
-  "Work to manufacture all spare parts of all shapes and types",
+  "العمل على توسيع دائرة المنتجات لتلبية احتياجات سوق العمل.",
+  "استقطاب أكبر عدد من الكوادر المدربة وخاصة فريق الصيانة.",
+  "التطوير الدائم لخدماتنا وأساليب عملنا.",
+  "العمل على التوسع الجغرافي لمقراتنا في كافة مدن المملكة العربية السعودية.",
+  "العمل علي أن يكون عملنا مميزا ومختلفا عن الآخرين.",
+  "العمل على تصنيع كافة قطع الغيار بكافة أشكالها وأنواعها.",
 ];
 
 const AboutObjectives = () => {
@@ -38,22 +38,26 @@ const AboutObjectives = () => {
           Objectives
         </div>
         {/* Description */}
-        <p className="text-[#4F3527] capitalize lg:text-lg font-semibold mb-5 pt-10">
-          At Dima Al-Orouba Turner Foundation for Maintenance, we have set a set
-          of different goals that contribute to enriching our march with more
-          successes, whether at the local or global level as well, and with our
-          goals we have devised many practical solutions that have supported us
-          in the labor market in the field of turning and maintenance, our goals
-          are:
+        <p
+          dir="rtl"
+          className="text-[#4F3527] capitalize lg:text-lg font-semibold mb-5 pt-10"
+        >
+          في مؤسسة ديما العروبة للخراطة للصيانة، وضعنا مجموعة من الأهداف
+          المختلفة التي تساهم في إثراء مسيرتنا بمزيد من النجاحات سواء على
+          المستوى المحلي أو العالمي أيضاً، ومع أهدافنا ابتكرنا العديد من الحلول
+          العملية التي دعمتنا في سوق العمل في مجال الخراطة والصيانة، أهدافنا هي:
         </p>
-        <div className="font-medium text-[16px] mb-6 text-left text-[#4F3527]">
+        <div
+          dir="rtl"
+          className="font-medium text-[16px] mb-6 text-right text-[#4F3527]"
+        >
           <ul className="list-disc list-inside">
             {list.length &&
               list.map((item, index) => (
-                <span className="flex" key={index}>
-                  <li></li>
-                  {item}
-                </span>
+                <li key={index} className="flex items-start mb-2">
+                <IconCircleFilled className="ml-2 w-2" />
+                <span>{item}</span>
+              </li>
               ))}
           </ul>
         </div>

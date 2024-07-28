@@ -5,7 +5,7 @@ import { Departments } from "@/data/departmentCards";
 import Image from "next/image";
 const Description = {
   item1:
-    "Precision-engineered components crafted with expertise and efficiency in our advanced Departments",
+    "مكونات مصممة بدقة عالية ومصممة بخبرة وكفاءة في أقسامنا المتقدمة",
 };
 
 const DepartmentsLanding = () => {
@@ -16,7 +16,7 @@ const DepartmentsLanding = () => {
         Departments
       </div>
       {/* Description */}
-      <div className="w-8/12 md:text-lg py-3 pb-10 mx-auto font-medium text-center text-[#4F3527]">
+      <div dir="rtl" className="w-8/12 md:text-lg py-3 pb-10 mx-auto font-medium text-center text-[#4F3527]">
         {Description.item1}
       </div>
       {/* Cards */}
@@ -52,7 +52,7 @@ const DepartmentsLanding = () => {
                 </div>
               </div>
               <div className="h-2/6 pt-3">
-                <div className="md:text-base text-sm font-medium text-[#4F3527]">
+                <div dir="rtl" className="md:text-base text-sm font-medium text-[#4F3527]">
                   {item.description}
                 </div>
               </div>

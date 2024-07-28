@@ -10,8 +10,8 @@ export default function contact() {
   return (
     <div className="flex font-customFont justify-center">
       <div className="p-8 w-full max-w-xl">
-        <h1 className="text-[23px] md:text-[30px]  font-bold mb-6 text-center text-[#2B1B12]">
-          Do You Have Any Questions? Get Help From Us
+        <h1 dir="rtl" className="text-[23px] md:text-[30px]  font-bold mb-6 text-center text-[#2B1B12]">
+        هل لديك أي أسئلة؟ احصل على المساعدة منا
         </h1>
         <div className="flex justify-center mb-4 md:space-x-10">
           <Link

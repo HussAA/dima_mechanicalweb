@@ -1,8 +1,8 @@
 export const objectives = [
-    "To better serve the needs of the laboratory market, we aim to expand our product offerings",
-    "To attract the largest number of trained cadres, especially the maintenance team, we are intensifying our recruitment and training initiatives.",
-    "We are committed to the continuous development of our services and methods of work.",
-    "We are focused on the geographical expansion of our headquarters across all cities in the Kingdom of Saudi Arabia.",
-    "Let's craft a unique identity. Our work will stand out distinctly, setting us apart from others.",
-    "We're dedicated to manufacturing spare parts of all shapes and types to meet diverse needs efficiently.",
+    "من أجل تلبية احتياجات سوق المختبرات بشكل أفضل، نهدف إلى توسيع عروض منتجاتنا",
+    "ولجذب أكبر عدد من الكوادر المدربة، وخاصة فريق الصيانة، فإننا نعمل على تكثيف مبادرات التوظيف والتدريب.",
+    "نحن ملتزمون بالتطوير المستمر لخدماتنا وطرق عملنا.",
+    "نحن نركز على التوسع الجغرافي لمقرنا الرئيسي في كافة مدن المملكة العربية السعودية.",
+    "دعونا نصنع هوية فريدة من نوعها. سوف يبرز عملنا بشكل واضح، مما يجعلنا نتميز عن الآخرين.",
+    "نحن ملتزمون بتصنيع قطع الغيار من جميع الأشكال والأنواع لتلبية الاحتياجات المتنوعة بكفاءة.",
   ];

@@ -1,16 +1,15 @@
 
 import Image from "next/image";
-import Link from "next/link";
 
 const description = [
-  "Reaching the world in the field of industry, turning, and maintenance is not easy, but with patience and diligence we have reached what we aspire to, and for this reason we are trying to preserve the place we have reached, to always maintain our first ranking in our field, and thus we gain the trust of our customers.",
+  "الوصول للعالمية في مجال الصناعة والخراطة والصيانة ليس بالأمر السهل، ولكن بالصبر والاجتهاد وصلنا إلى ما نطمح إليه، ولهذا السبب نحاول الحفاظ على المكانة التي وصلنا إليها، للحفاظ دائماً على ترتيبنا الأول في مجالنا، وبالتالي نكتسب ثقة عملائنا.",
 ];
 const title =[
     "Our Vision"
 ]
 const AboutVision = () => {
   return (
-    <div className="w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 flex flex-col md:flex-row items-center md:gap-5 gap-10 mx-auto">
+    <div className="w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 flex flex-col md:flex-row items-center md:gap-8 gap-10 mx-auto">
       {/* Right Side */}
       <div className="relative w-full xl:w-5/12 md:w-1/2 order-2 md:order-1 justify-center flex">
         {/* Image */}
@@ -33,7 +32,7 @@ const AboutVision = () => {
             {title}
         </div>
         {/* Description */}
-        <div className="font-medium text-[16px] mb-6 text-left text-[#4F3527]">
+        <div dir="rtl" className="font-medium text-[16px] mb-6 text-left text-[#4F3527]">
           {description}
         </div>
       </div>

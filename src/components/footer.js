@@ -96,6 +96,7 @@ export default function Footer() {
             <li className="mb-2 flex items-center">
                 <IconMap2 className="mr-2" />
                 <Link
+                  rel="noreferrer" target="_blank"
                   href="https://maps.app.goo.gl/Qqr7gNYDMzKuTZMp8"
                   className="text-[14px] md:text-[16px] text-[#4F3527] hover:text-[#9c6240] duration-150"
                 >

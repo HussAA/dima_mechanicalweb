@@ -2,37 +2,37 @@
 export const Departments = [
     {
       name: "CNC",
-      description: "High-precision CNC machining solutions for all your manufacturing needs",
+      description: "حلول التصنيع باستخدام الحاسب الآلي عالية الدقة لجميع احتياجات التصنيع الخاصة بك",
       icon: '/cnc.svg'
     },
     {
       name: "Conventional",
-      description: "Reliable conventional machining for precise and durable components",
+      description: "تصنيع تقليدي موثوق به للمكونات الدقيقة والمتينة",
       icon: '/cnc.svg'
     },
     {
       name: "Electrical",
-      description: "Advanced electrical machining for intricate and accurate parts",
+      description: "تصنيع كهربائي متقدم للأجزاء المعقدة والدقيقة",
       icon: '/cnc.svg'
     },
     {
       name: "Mold & Die",
-      description: "Expert Mold & Die solutions for high-quality, custom manufacturing.",
+      description: "حلول القوالب والخبراء للتصنيع عالي الجودة والمخصص.",
       icon: '/cnc.svg'
     },
     {
       name: "Sheet Metal",
-      description: "Precision sheet metal fabrication for versatile and durable products",
+      description: "تصنيع الصفائح المعدنية بدقة للحصول على منتجات متعددة الاستخدامات ومتينة.",
       icon: '/cnc.svg'
     },
     {
       name: "Welding",
-      description: "Expert welding services for strong and reliable joints",
+      description: "خدمات اللحام المتخصصة للمفاصل القوية والموثوقة",
       icon: '/cnc.svg'
     },
     {
         name: "GearBox",
-        description: "High-performance gearbox manufacturing for efficient and reliable power transmission",
+        description: "تصنيع علب التروس عالية الأداء لنقل الطاقة بكفاءة وموثوقية",
         icon: '/cnc.svg'
     },
   ];
