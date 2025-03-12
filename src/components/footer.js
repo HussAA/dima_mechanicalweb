@@ -146,12 +146,12 @@ export default function Footer() {
       <div className="text-center bg-[#38302b] text-[#ccb4a6] p-2">
         Copyright © {new Date().getFullYear()}; Built by{" "}
         <Link
-          href="mailto:hussain.alnakhli@majlisdev.com"
+          href="mailto:mah.hussaina@gmail.com"
           rel="noreferrer"
           target="_blank"
           className="underline"
         >
-          Majlis Dev
+          Tech Axis Solutions
         </Link>
       </div>
     </footer>
